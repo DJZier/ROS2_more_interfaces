@@ -17,7 +17,7 @@ public:
 
     auto publish_msg = [this]() -> void {
         auto message = more_interfaces::msg::AddressBook();
-salut
+
         message.first_name = "John";
         message.last_name = "Doe";
         message.age = 30;
